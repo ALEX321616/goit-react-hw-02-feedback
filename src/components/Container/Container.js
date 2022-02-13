@@ -3,7 +3,6 @@ import { sum, round } from 'lodash';
 import FeedbackOptions from '../FeedbackOptions/FeedbackOptions';
 import Statistics from '../Statistics/Statistics';
 import Section from '../Section/Section';
-// import PropTypes from 'prop-types';
 
 const ButtonListArr = ['Good', 'Neutral', 'Bad'];
 
@@ -63,4 +62,5 @@ class Container extends Component {
     );
   }
 }
+
 export default Container;
